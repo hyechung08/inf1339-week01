@@ -79,6 +79,7 @@
             else {document.getElementById("segmentB").innerHTML = ''
                  document.getElementById("segmentB").setAttribute("class", "black")}
             if (signals[2] == '1') {
+                console.log('we arrived at signals 2')
                 document.getElementById("segmentC").innerHTML = ''
                 document.getElementById("segmentC").setAttribute("class", "red")}
             else {document.getElementById("segmentC").innerHTML = ''
@@ -190,7 +191,7 @@
                         <td id="segmentE"
                             class="sevenSegmentTable vertical">E</td>
                         <td class="notsevenSegmentTable middle">2</td>
-                        <td class="sevenSegmentTable">C</td>
+                        <td id="segmentC" class="sevenSegmentTable">C</td>
                     </tr>
                     <tr>
                         <td class="notsevenSegmentTable corner">1</td>
